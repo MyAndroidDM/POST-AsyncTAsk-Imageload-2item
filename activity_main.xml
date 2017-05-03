@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="bawei.com.homework20170428.MainActivity">
+    <RadioGroup
+        android:id="@+id/rg"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/fram_introduce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="本社介绍"
+            android:button="@null"
+            android:padding="10dp"/>
+        <RadioButton
+            android:id="@+id/fram_zhize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="履行职责"
+            android:button="@null"
+            android:padding="10dp"/>
+        <RadioButton
+            android:id="@+id/fram_myselfe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="自我建设"
+            android:button="@null"
+            android:padding="10dp"/>
+    </RadioGroup>
+    <FrameLayout
+        android:id="@+id/fram"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+</LinearLayout>
